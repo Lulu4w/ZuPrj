@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">  
+       
+  <tlib-version>1.0</tlib-version>  
+  <short-name>zf</short-name>  
+  <uri>http://www.zsz.com/functions</uri>
+     
+  <function>  
+    <name>add</name>  
+    <function-class>com.zsz.tools.TestUtils</function-class>  
+    <function-signature>int add(int,int)</function-signature>  
+  </function>  
+ <function>  
+    <name>contains</name>  
+    <function-class>com.zsz.tools.Functions</function-class>  
+    <function-signature>boolean contains(java.lang.Object,java.lang.Object)</function-signature>  
+  </function>  
+ <function>  
+    <name>addQueryStringPart</name>  
+    <function-class>com.zsz.tools.Functions</function-class>  
+    <function-signature>java.lang.String addQueryStringPart(java.lang.String,java.lang.String,java.lang.String)</function-signature>  
+  </function>    
+</taglib> 
